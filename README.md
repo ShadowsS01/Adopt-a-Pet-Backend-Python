@@ -3,7 +3,7 @@
 </div>
 <br/>
 <div align="center">
-  <img width="180" src="https://raw.githubusercontent.com/ShadowsS01/Adopt-a-Pet-Frontend/ba87e72721d8c1ff7a6ba3ede2cd27ab4b5feb36/public/images/logo.svg?token=AVCDCCHU7MZCPDSW4OPVFEDCTQHEM" alt="Logo">
+  <img width="180" src="public/images/logo.svg" alt="Logo">
   <h1>Adote um Pet</h1>
 </div>
 <p align="center">
