@@ -9,6 +9,3 @@ class Adocao(models.Model):
 
     class Meta:
         verbose_name_plural = "Adoções"
-
-    def __str__(self) -> str:
-        return self.pet
