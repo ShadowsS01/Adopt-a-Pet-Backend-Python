@@ -6,12 +6,13 @@ from .models import Adocao
 from .serializers import AdocaoSerializer
 from .email_service import envia_email_confirmacao
 
+
 class AdocaoList(APIView):
     def get(self, request, format=None):
         adocoes = Adocao.objects.all()
         serializer = AdocaoSerializer(adocoes, many=True)
         return Response(serializer.data, status=HTTP_200_OK)
-    
+
     def post(self, request, format=None):
         serializer = AdocaoSerializer(data=request.data)
         if serializer.is_valid():
